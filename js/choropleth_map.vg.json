@@ -16,7 +16,7 @@
           "url": "https://raw.githubusercontent.com/kluk0007/Monash_FIT3179_Homework_Week_9/data/estimated_resident_population_by_country_of_birth.csv"
         },
         "key": "Country",
-        "fields": ["Active"]
+        "fields": ["2024 ('000)"]
       }
     },
     {"calculate": "datum.Active + 0.1", "as": "Active Cases"}
