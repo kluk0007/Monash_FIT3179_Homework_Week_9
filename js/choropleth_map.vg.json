@@ -24,13 +24,13 @@
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "Active Cases",
+      "field": "2024",
       "type": "quantitative",
       "scale": {"type": "log"}
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-      {"field": "Active", "type": "quantitative"}
+      {"field": "2024", "type": "quantitative"}
     ]
   }
 }
