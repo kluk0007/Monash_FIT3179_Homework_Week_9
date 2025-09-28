@@ -27,7 +27,7 @@
       "condition": { "test": "datum.population_percentage !== 0",
       "field": "Australian_population_percentage",
       "type": "quantitative",
-      "scale": {"type": "symlog", "constant": 0.1, "domain": [0, 100]}
+      "scale": {"type": "symlog", "constant": 0.1, "domain": [0, 100], "range": ["#dddddd", "#004191"]}
     }, "value": "lightgray"
     },
     "tooltip": [
