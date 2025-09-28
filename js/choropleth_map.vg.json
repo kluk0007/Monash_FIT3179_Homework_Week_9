@@ -24,9 +24,11 @@
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
+      "condition": { "test": "datum.population_percentage !== 0",
       "field": "population_percentage",
       "type": "quantitative",
       "scale": {"type": "symlog", "constant": 0.3, "domain": [0, 100]}
+    }, "value": "lightgray"
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
