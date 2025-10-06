@@ -4,7 +4,6 @@
   "width": 800,
   "height": 400,
   "projection": {"type": "equalEarth"},
-  "layer":[
     "data": {
       "url": "https://raw.githubusercontent.com/kluk0007/Monash_FIT3179_Homework_Week_9/refs/heads/main/js/ne_110m_admin_0_countries.topojson",
       "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
@@ -36,6 +35,5 @@
         {"field": "Australian_population_percentage", "type": "quantitative"}
       ]
     }
-  ]
 }
 
